@@ -1,0 +1,13 @@
+jobs:
+  pyinstaller-build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+      os: [ubuntu-latest, windows-latest, macos-latest]
+    steps:
+      - name: Create Executable
+        uses: sayyid5416/pyinstaller@v1
+        with:
+          spec: 'main.py'
+          upload_exe_with_name: 'balatro-ios-converter'
+          
