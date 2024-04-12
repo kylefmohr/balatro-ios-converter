@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - master
+      - main
   workflow_dispatch:
 
 jobs:
@@ -14,5 +14,5 @@ jobs:
       - name: Create Executable
         uses: sayyid5416/pyinstaller@v1
         with:
-          spec: 'main.py'
-          upload_exe_with_name: 'balatro-ios-converter'
+            spec: 'main.py'
+            upload_exe_with_name: balatro-${{ matrix.os }}
