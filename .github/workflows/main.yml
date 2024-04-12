@@ -15,4 +15,4 @@ jobs:
         uses: sayyid5416/pyinstaller@v1
         with:
             spec: 'main.py'
-            upload_exe_with_name: balatro-${{ matrix.os }}
+            upload_exe_with_name: balatro-${{ matrix.os }}-${{ github.run_number }}
