@@ -1,4 +1,6 @@
-# A simple Python script that will alter Balatro's game files to be compatible with iOS!
+## A simple Python script that will alter Balatro's game files to be compatible with iOS!
+
+## See https://github.com/blake502/balatro-mobile-maker for a much better version of this!
 
 This is intended to allow you to play Balatro on iOS, using an app such as [Love2D Studio](https://apps.apple.com/us/app/love2d-studio/id6474188075?uo=4) or [Love2D Game Maker (TestFlight Link)](https://testflight.apple.com/join/bCLmQKfQ)
 
